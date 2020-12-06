@@ -1,0 +1,19 @@
+{%  extends "blog/base.html" %}
+{% load static %}
+
+
+{% block content %}
+<div class="row">
+<div class="col-lg-8 col-md-8">
+    <h2> You have being logged out</h2>
+    <div class="border-top pt-3">
+         <small class=""><a href="{% url 'login' %}" class="ml-2">Log In Again </a></small>
+    </div>
+    </div>
+</div>
+
+
+
+
+
+{% endblock content %}
